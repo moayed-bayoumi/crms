@@ -1,0 +1,72 @@
+.summary-icon {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+}
+
+.card-body p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card-body h4 {
+    margin-top: 0;
+}
+
+.card-body .summary-icon i {
+    color: #ffffff96;
+}
+
+.card-body .summary-icon .icon-car {
+    color: #007bff;
+}
+
+.card-body .summary-icon .icon-book {
+    color: #17a2b8;
+}
+
+.card-body .summary-icon .icon-clock {
+    color: #ffc107;
+}
+
+.card-body .summary-icon .icon-users {
+    color: #28a745;
+}
+
+.tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.tile {
+    width: calc(33% - 1rem);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.tile h4 {
+    margin-top: 0;
+}

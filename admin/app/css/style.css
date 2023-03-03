@@ -1,0 +1,96 @@
+/* Add a background color to the page */
+body {
+  background-color: #f1f1f1;
+}
+
+/* Style the header section */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the table headers */
+th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style the table rows on hover */
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Style the buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style the primary button */
+.btn-primary {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+/* Style the primary button on hover */
+.btn-primary:hover {
+  background-color: #0077c9;
+}
+
+/* Style the success button */
+.btn-success {
+  background-color: #3cb371;
+  color: #fff;
+}
+
+/* Style the success button on hover */
+.btn-success:hover {
+  background-color: #2e8b57;
+}
+
+/* Style the danger button */
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Style the danger button on hover */
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Center the buttons */
+.btn-block {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add some padding to the container */
+.container {
+  padding: 20px;
+}
